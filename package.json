@@ -1,0 +1,22 @@
+{
+  "name": "xara-testcases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saeimenbukhari/xaraTestCases.git"
+  },
+  "author": "aeimenb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saeimenbukhari/xaraTestCases/issues"
+  },
+  "homepage": "https://github.com/saeimenbukhari/xaraTestCases#readme",
+  "devDependencies": {
+    "cypress": "^9.6.1"
+  }
+}
