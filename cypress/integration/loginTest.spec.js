@@ -4,7 +4,7 @@
    describe('Login Test Cases', () => {
     beforeEach(() => {
         
-      cy.visit('https://cloud.xara.com')
+      cy.visit('/')
 
       cy.wait(6000)
 

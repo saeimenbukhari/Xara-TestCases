@@ -1,4 +1,5 @@
 {
     "chromeWebSecurity": false,
-    "experimentalSessionAndOrigin": true 
+    "experimentalSessionAndOrigin": true,
+    "baseUrl": "https://cloud.xara.com" 
 }

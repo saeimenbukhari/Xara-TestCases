@@ -4,7 +4,7 @@
    describe('Login Test Cases', () => {
     beforeEach(() => {
         
-      cy.visit('https://cloud.xara.com')
+      cy.visit('/')
 
       cy.wait(6000)
 
@@ -19,16 +19,22 @@
         newAccount.createAccount(firstName,lastName,username, password)
       })
 
-      it('Create account with google works',()=>{
+    it('Create account with google works',()=>{
 
-
+        //just checking the button works, to verify link redirection additonal scripts are needed
         newAccount.createWithGoogle()
       })
 
-      it.only('Password verification', ()=>{
+    it('Password verification with more than 8 letters', ()=>{
+        
+        newAccount.passwordValidation('abcdefgh')
+
+      })
+
+    it('Password verification with invalid input', ()=>{
+        //less than 8 letters
         newAccount.passwordValidation('abc')
 
-        newAccount.passwordValidation('abcdefgh')
 
       })
 
