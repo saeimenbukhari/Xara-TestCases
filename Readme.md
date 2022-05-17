@@ -4,7 +4,7 @@ This repositry holds automation test cases for the manual test cases designed an
 
 [Manual Test Cases](https://docs.google.com/spreadsheets/d/1lbxt2N6TSxbAlfhlvpl8GT6sZbiPdy-GVDiAUW5OBdE/edit#gid=0)
 
-Test files have been written in the cypress/supoort folder and then used in the integration folders to make them re-usable. 
+Test files have been written in the **cypress/support** folder and then used in the **integration** folders to make them re-usable. 
 
 ## Pre-Requisites: 
  Node.js(v12 or higher)
