@@ -51,6 +51,8 @@ export class logIn{
 
         cy.get('[class="MuiFormHelperText-root Mui-error"]').should('have.text',errorMessage)
 
+        cy.log('wee')
+
 
     }
 
