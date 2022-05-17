@@ -8,6 +8,7 @@ Test files have been written in the **cypress/support** folder and then used in 
 
 ## Pre-Requisites: 
  Node.js(v12 or higher)
+
  VS Code or any other IDE
 
 ## Steps to Install 
