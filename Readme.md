@@ -1,15 +1,15 @@
-#Xara Automation Test Cases 
+# Xara Automation Test Cases 
 
 This repositry holds automation test cases for the manual test cases designed and executed in the file below: 
 [Google Sheet] (https://docs.google.com/spreadsheets/d/1lbxt2N6TSxbAlfhlvpl8GT6sZbiPdy-GVDiAUW5OBdE/edit#gid=0)
 
 Test files have been written in the cypress/supoort folder and then used in the integration folders to make them re-usable. 
 
-##Pre-Requisites: 
+## Pre-Requisites: 
  Node.js(v12 or higher)
  VS Code or any other IDE
 
-##Steps to Install 
+## Steps to Install 
 
 1. Create a folder in your local directory. 
 2. Open VS Code and open the folder. 
@@ -22,7 +22,7 @@ Test files have been written in the cypress/supoort folder and then used in the 
  >             npx cypress open
 7. Once the Cypress runner is open, press the 'Run 2 Integration Specs' button. 
 
-##Post Execution: 
+## Post Execution: 
 
 All the scripts will run infront of you along side all the current script operations written in the script. 
 Once execution is complete you will see how many test have passed or failed in the Test framework.
